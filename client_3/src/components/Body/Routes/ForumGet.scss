@@ -1,0 +1,116 @@
+.forumGetHeader {
+    padding: 20px 10vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0088ff;
+    border-bottom: 10px double black;
+}
+.forumGetTitle {
+    h2 {
+        margin: 4px 0;
+    }
+
+    .matiereTag {
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+
+        & > * {
+            margin-right: 10px;
+        }
+    }
+}
+.forumGetPoint {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+}
+.forumGetDate {
+    font-weight: bold;
+    min-width: 150px;
+    text-align: right;
+}
+.forumGetAccepted {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.forumGetPostsList {
+    margin: 75px auto;
+}
+
+.forumGetMessage {
+    margin: 25px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.forumGetProfileImage {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.forumGetMessageHeader {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+.forumGetMessageBody {
+    padding-left: 25px;
+    margin: 15px 0px 15px 15px;
+    border-left: 2px solid #d1d1d1;
+
+    .forumGetRawMessage {
+        white-space: pre-wrap;
+        
+        img {
+            width: 80%;
+        }
+    }
+}
+
+.forumGetMessageLike {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+
+    img {
+        margin-right: 10px;
+    }
+}
+
+.forumTextarea {
+    margin: 75px 170px;
+    display: flex;
+    flex-direction: column;
+    
+    textarea {      
+        margin: 0 auto;
+        width: 800px;
+        min-height: 150px;
+        resize: vertical;
+    }
+
+    .addComment {
+        text-align: left;
+        font-size: 20px;
+        font-weight: bolder;
+    }
+
+    & > div {
+        text-align: right;
+
+        button {
+            padding: 10px 20px;
+            border-radius: 10px;
+            border: none;
+            margin: 10px;
+
+            &[type=submit] {
+                background-color: #0088ff;
+            }
+        }
+    }
+}

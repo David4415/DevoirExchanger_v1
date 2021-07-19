@@ -1,0 +1,70 @@
+.header { 
+    width: 25%;
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, #CB54F5, #15ECFA);
+    position: fixed;
+    z-index: 2;
+}
+
+
+/* Logo */
+.logo_container {
+    margin-left: 2vw;
+}
+
+.logo {
+    display: flex;
+    align-items: baseline;
+    padding: 1.25vh 0 1.25vh 0;
+
+    h1 {
+        margin-left: 10px;
+    
+        font-size: 35px;
+        font-family: Roboto;
+        color: white;
+    }
+
+    img {
+        filter: invert(100%);
+    }
+}
+
+/* menu */
+.menu_container {
+    display: inline-block;
+}
+.menu_item {
+    padding: 1.5vh 1.5vw 1.5vh 4.5vw;
+    display: flex;
+    align-items: center;
+    margin-top: 5vh;
+
+    a {
+        font-size: 20px;
+        font-family: Roboto;
+    
+        color: white;
+        outline: none;
+        text-decoration: none;
+        margin-left: 30px;
+    }
+
+    img {
+        filter: invert(100%);
+    }
+
+    &.active {
+        
+        background-color: white;
+        border-radius: 0 60px 60px 0;
+
+        a {
+            color: black;
+        }
+
+        img {
+            filter: invert(0%);
+        }
+    }
+}

@@ -1,0 +1,54 @@
+.badgesContainer {
+    margin: 40px 0;
+}
+
+.badgesQuery {
+    text-align: end;
+    margin: 0 100px;
+}
+
+.AllBadges {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px 15px;
+}
+
+.badgeItem {
+    padding: 10px;
+    margin: 10px;
+    min-width: 250px;
+    max-width: 250px;
+}
+
+.bronze {
+    border: 1px solid #CD7F32;
+    background-color: #CD7F3220;
+
+    &.haveBadge {
+        background-color: #CD7F32;
+    }
+}
+.silver {
+    border: 1px solid #C0C0C0;
+    background-color: #C0C0C020;
+
+    &.haveBadge {
+        background-color: #C0C0C0;
+    }
+}
+.gold {
+    border: 1px solid #FFD700;
+    background-color: #FFD70020;
+
+    &.haveBadge {
+        background-color: #FFD700;
+    }
+}
+.diamond {
+    border: 1px solid #0085FF;
+    background-color: #0085FF20;
+
+    &.haveBadge {
+        background-color: #0085FF;
+    }
+}

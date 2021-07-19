@@ -1,0 +1,105 @@
+.doc_Body {
+    width: 100%;
+    min-height: 100%;
+    border-radius: 50px 0 0 0; 
+    padding-bottom: 70px;
+
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+}
+
+.docget_header {
+    background-color: #123456B9;
+    color: 	antiquewhite;
+
+    margin: 40px;
+    border-radius: 30px; 
+    text-align: center;
+
+    display: flex;
+    justify-content: space-between;
+    
+    & > * {
+        margin: 20px 30px;
+    }
+
+    .docget_title {
+        p {
+            max-width: 700px;
+        }
+    }
+
+    .docget_time {  
+        
+        & > p {
+            margin: 10px auto;
+            height: fit-content;
+            box-shadow: inset 1px 1px 20px black;
+            border-radius: 30px; 
+            padding: 10px 20px;
+            width: fit-content;
+            font-size: 15px;
+        }
+
+        p.seagreen {
+            background-color: seagreen;
+        }
+
+        p.redstone {
+            background-color: #800000;
+        }
+    }
+}
+
+.docget_vote {
+    font-size: 25px;
+    align-self: center;
+    min-width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .docget_uarr {
+        padding: 15px;
+        transition: color 0.5s ease-in-out;
+        height: fit-content;
+
+        &.color_green {
+            color: green;
+        }
+    }
+
+    .docget_darr {
+        padding: 10px;
+        transition: color 0.5s ease-out;
+        height: fit-content;
+
+        &.color_red {
+            color: red;
+        }
+    }
+
+    .docget_numOfLike {
+        transition: color 0.5s ease-out;
+
+        &.color_green {
+            color: green;
+        }
+
+        &.color_red {
+            color: red;
+        }
+    }
+}
+
+.docget_body {
+    display: flex;
+    justify-content: center;
+
+    .iframe_thumb {
+        width: 70%;
+        height: 900px;
+    }
+}

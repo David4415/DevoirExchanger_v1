@@ -1,0 +1,18 @@
+{
+  "name": "test_implementation_mySQL",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test_myql.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "json": "^11.0.0",
+    "mysql": "^2.18.1"
+  }
+}

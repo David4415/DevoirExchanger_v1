@@ -1,0 +1,13 @@
+#body {
+    width: 83%;
+    min-height: 100vh;
+    display: block;
+    overflow: auto;
+    margin-left: 17%;
+    position: relative;
+    z-index: 4;
+    margin-top: 0;
+
+    background-image: linear-gradient(to right bottom,#FFF8FF, #FED6FF);
+    border-radius: 50px 0 0 0;    
+}

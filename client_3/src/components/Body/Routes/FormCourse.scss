@@ -1,0 +1,79 @@
+.formCourse {
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+
+    .itemCreate {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 20px;
+
+        .label {
+            font-size: 16px;
+            font-weight: bold;
+            max-width: 200px;
+            min-width: 200px;
+        }
+
+        .form_item {
+            padding: 5px 15px;
+            border: none;
+            outline: none;
+            border-radius: 5px;
+            width: 700px;
+        }
+
+        textarea {
+            resize: none;
+            min-height: 110px;
+        }
+    }
+
+    .buttonSubmitCreateDoc {
+        align-self: center;
+        padding: 10px 20px;
+        border: none;
+        background-color: #3735db;
+        color: white;
+        font-size: 15px;
+        border-radius: 15px;
+    }
+}
+
+.error {
+    background-color: #ffcac4;
+    border: 1px solid #e33420;
+}
+.errorMessage {
+    margin-top: 5px;
+    color: #e33420;
+}
+
+div[name=preview] {
+    border: 1px solid black !important;
+}
+
+.uploadFile {
+    background-color: indigo;
+    color: white;
+    padding: 0.75rem;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.previewDiv {
+    display: flex;
+    align-items: center;
+}
+.fichePreview {
+    margin: 5%;
+}
+
+@keyframes flipAround {
+    15% {transform: translateX(64px);}
+    30% {transform: translateX(-32px);}
+    45% {transform: translateX(16px);}
+    60% {transform: translateX(-8px);}
+    75% {transform: translateX(4px);}
+    90% {transform: translateX(-2px);}
+    100% {transform: translateX(1px);}
+}

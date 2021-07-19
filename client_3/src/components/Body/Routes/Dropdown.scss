@@ -1,0 +1,38 @@
+.dropdown {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    min-width: 80px;
+    
+    & > img {
+        margin-left: 10px;
+    }
+
+    img {
+        transition: transform 400ms ease-in-out;
+    }
+}
+
+.clicked {
+    padding: 3px 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: rgba(100, 100, 100, 0.9);
+    z-index: 10;
+
+    img {
+        transform: rotate(90deg);
+    }
+
+    .dropdownElements > * {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-top: 10px;
+        border-top: 1px solid black;
+    }
+}
+
+.void {
+    padding: 3px 10px;
+    min-width: 80px;
+}
